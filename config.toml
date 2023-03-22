@@ -1,0 +1,304 @@
+# Page settings
+
+baseurl = "https://iie.fing.edu.uy/~rocamora/public/"
+languageCode = "en-us"
+title = "martin rocamora"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "martin rocamora personal site"
+    author = "Martín Rocamora"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "martín rocamora"
+        tagline = "Sound - Audio - Music"
+        avatar = "martin_rocamora.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: rocamora@fing.edu.uy"
+        title = "rocamora@fing.edu.uy"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        #url = "tel:+598 27110974"
+        title = "+598 27110974"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//iie.fing.edu.uy/~rocamora/" 
+        title = "website"
+
+        [[params.contact.list]]
+        class = "googlescholar"
+        icon = "fa-mortar-board"
+        url = "//scholar.google.com/citations?user=4CBw0H8AAAAJ&hl=en&oi=ao"
+        title = "scholar"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/mrocamora"
+        title = "github.com"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "PhD in Electrical Engineering"
+        college = "Universidad de la República"
+        theme = "Computational musicology"
+        # dates = "2018"
+
+        [[params.education.list]]
+        degree = "MSc in Electrical Engineering"
+        college = "Universidad de la República"
+        theme = "Music information retrieval"
+        # dates = "2011"
+
+        [[params.education.list]]
+        degree = "BSc in Electrical Engineering"
+        college = "Universidad de la República"
+        theme = "Music information retrieval"
+        # dates = "2004"
+
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Research Interests"
+
+        [[params.interests.list]]
+        interest = "Audio processing"
+
+        [[params.interests.list]]
+        interest = "Machine learning" 
+        
+	[[params.interests.list]]
+        interest = "Sound synthesis"
+
+	[[params.interests.list]]
+        interest = "Computer music"
+
+	[[params.interests.list]]
+        interest = "Music performance"
+
+        [[params.interests.list]]
+        interest = "Computational musicology"
+
+        [[params.interests.list]]
+        interest = "Computational perception"
+
+    # Languages section
+    [params.language]
+        enable = false
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Profile"
+        #summary = "**Martín Rocamora** is Assistant Professor in Signal Processing at Universidad de la República, Uruguay.  He holds B.Sc, M.Sc., and D.Sc. degrees in Electrical Engineering from the School of Engineering at the same university. His research focuses on the application of machine learning and signal processing to audio signals, with applications in machine listening, music information retrieval, and computational musicology."
+        summary = "I am currently an Assistant Professor in Signal Processing at Universidad de la República (UDELAR), Uruguay.  I hold B.Sc, M.Sc., and D.Sc. degrees in Electrical Engineering from the School of Engineering, UDELAR. I was Teaching Assistant in Music Technology at the School of Music, UDELAR. My research focuses on applying machine learning and signal processing to audio signals, with applications in machine listening, music information retrieval, and computational musicology."
+
+
+    # Teaching section
+    [params.teaching]
+        enable = true
+        icon = "fa-book"
+        title = "Teaching"
+
+        [[params.courses.list]]
+        name = "Fundamentals of Machine Learning"
+        dates = "2019 - Present"
+        faculty = "School of Engineering, Universidad de la República"
+        #details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+
+        [[params.courses.list]]
+        name = "Digital Audio Signal Processing"
+        dates = "2012 - Present"
+        faculty = "School of Engineering, Universidad de la República"
+        #details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        #intro = "Current and recent research projects."
+
+        [[params.projects.list]]
+        title = "MOSMO"
+        url = "https://iie.fing.edu.uy/proyectos/mosmo/"
+        tagline = "**Montevideo Sound Monitoring** (UdelaR-IdeM, 2020-2021). *Scientific coordinator and researcher*. The project aim is to monitor noise pollution and detect annoying sounds in Montevideo city by using a network of sensors and signal processing and machine learning."
+
+        [[params.projects.list]]
+        title = "StaRel"
+        url = "http://www.smt.ufrj.br/~starel"
+        tagline = "**Statistical Relational Learning for Music** (STIC-AmSud, 2018-2019). *Scientific coordinator and researcher*. The project aims to gain insight into the understanding and modeling of the rhythmic/metrical structure in audio recordings of expressive music performances."
+
+        [[params.projects.list]]
+        title = "IEMP"
+        url = "https://musicscience.net/projects/iemp/"
+        tagline = "**Interpersonal Entrainment in Music Performance** (AHRC, 2016-2018). *Visiting fellow and collaborator*. The project aims to develop a better understanding of how groups of people coordinate behaviour within a musical context, considering a broad range of musical cultures."
+
+    # Code section
+    [params.code]
+        enable = true
+        icon = "fa-gears"
+        title = "Code"
+        #intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.code.list]]
+        title = "DCASE-models"
+        url = "https://github.com/pzinemanas/DCASE-models"
+        tagline = "**Environmental sound analysis** (*python*). An open-source  library for rapid prototyping of environmental sound analysis systems, with an emphasis on deep-learning models." 
+
+
+        [[params.code.list]]
+        title = "carat"
+        url = "https://github.com/mrocamora/carat"
+        tagline = "**Computer-aided Rhythm Analysis Toolbox** (*python*). A toolbox for rhythmic pattern analysis from audio recordings, including some ready-to-use software applications." 
+
+
+        [[params.code.list]]
+        title = "FChT"
+        url = "https://iie.fing.edu.uy/~pcancela/fcht/"
+        tagline = "**Fan Chirp Transform and F0gram** (*Matlab, C*). Improved time-frequency representation of polyphonic music and fundamental-frequency salience visualisation." #A [vamp-plugin](https://www.vamp-plugins.org/download.html) for [Sonic Visualiser](https://www.sonicvisualiser.org/) is also available."
+
+
+        [[params.code.list]]
+        title = "IIR-CQT"
+        url = "https://iie.fing.edu.uy/~pcancela/iir-cqt/"
+        tagline = "**IIR Constant-Q Transform** (*Matlab*). Constant-Q transform implemented by IIR filtering of the spectrum, as a good compromise between flexibility and low computational cost."
+
+
+        [[params.code.list]]
+        title = "WIST"
+        url = "https://iie.fing.edu.uy/~rocamora/wind_synthesis/doc/"
+        tagline = "**Wind Instruments Synthesis Toolbox** (*Matlab*). Wind instruments additive synthesis for generation of music audio signals with labeled partials."
+
+        #[[params.code.list]]
+        #title = "tararira"
+        #url = "https://musicscience.net/projects/iemp/"
+        #tagline = "**Query by humming system** (*C++, Matlab*). The project aims to develop a better understanding of how groups of people coordinate behaviour within a musical context, considering a broad range of musical cultures."
+
+   # Data section
+    [params.data]
+        enable = true
+        icon = "fa-server"
+        title = "Data"
+        #intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.data.list]]
+        title = "IEMP Uruguayan Candombe"
+        url = "https://osf.io/WFX7K/"
+        tagline = "A collection of audiovisual recordings of Uruguayan Candombe drum ensemble performances, with detailed annotations (beat, downbeats, onsets, etc.)."
+
+        [[params.data.list]]
+        title = "Uruguayan Candombe Beat and Downbeat"
+        url = "http://www.eumus.edu.uy/candombe/datasets/ISMIR2015/"
+        tagline = "A dataset of audio recordings of Uruguayan Candombe drum ensemble performances with annotated beats and downbeats."
+
+
+        [[params.data.list]]
+        title = "MAVD-traffic dataset"
+        url = "https://doi.org/10.5281/zenodo.3338727"
+        tagline = "A dataset for sound event detection in urban environments that focuses on traffic noise, with audio recordings and synchronized video files."
+
+
+    # Publications section
+    [params.publications]
+        enable = true
+        icon = "fa-file-text"
+        title = "Publications" 
+
+        intro = "A complete list of my publications is available [here](http://iie.fing.edu.uy/publicaciones/results.php?queryType=publications&author=rocamora&pg=-1). You can also check my scholar profile [here](http://scholar.google.com/citations?user=4CBw0H8AAAAJ&hl=en&oi=ao)." 
+        #intro = "The complete list of publications is available [here](http://iie.fing.edu.uy/publicaciones/results.php?queryType=publications&author=rocamora&pg=-1)." 
+
+    # Skills section
+    [params.skills]
+        enable = false
+        icon = "fa-file-text"
+        title = "Skills & Proficiency"
+
+        intro = "These are my skills." 
+
+#        [[params.skills.list]]
+#        skill = "Python & Django"
+#        level = "98%"
+#                
+#        [[params.skills.list]]
+#        skill = "Javascript & jQuery"
+#        level = "98%"
+#
+#        [[params.skills.list]]
+#        skill = "Angular"
+#        level = "95%"
+#
+#        [[params.skills.list]]
+#        skill = "HTML5 & CSS"
+#        level = "95%"
+#
+#        [[params.skills.list]]
+#        skill = "Ruby on Rails"
+#        level = "75%"
+#
+#        [[params.skills.list]]
+#        skill = "Sketch & Photoshop"
+#        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Martín Rocamora"
