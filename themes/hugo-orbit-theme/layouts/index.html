@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    {{ partial "lang.html" . }}
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body>
+    <div class="wrapper">
+
+    {{ partial "sidebar.html" . }}
+
+	<div class="main-wrapper">
+
+    {{ if .Site.Params.summary.enable }}
+	{{ partial "summary.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.publications.enable }}
+	{{ partial "publications.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.projects.enable }}
+    {{ partial "projects.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.code.enable }}
+    {{ partial "code.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.data.enable }}
+    {{ partial "data.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.skills.enable }}
+	{{ partial "skills.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.teaching.enable }}
+    {{ partial "teaching.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.experiences.enable }}
+    {{ partial "experiences.html" . }}
+    {{ end }}
+
+
+	</div><!--//main-body-->
+    </div>
+
+	{{ partial "footer.html" . }}
+
+    {{ partial "scripts.html" . }}
+</body>
+</html>
