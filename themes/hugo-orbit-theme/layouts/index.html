@@ -43,6 +43,10 @@
     {{ partial "experiences.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.music.enable }}
+    {{ partial "music.html" . }}
+    {{ end }}
+
 
 	</div><!--//main-body-->
     </div>

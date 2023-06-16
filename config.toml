@@ -259,6 +259,20 @@ disable404 = true
         intro = "A complete list of my publications is available [here](http://iie.fing.edu.uy/publicaciones/results.php?queryType=publications&author=rocamora&pg=-1). You can also check my scholar profile [here](http://scholar.google.com/citations?user=4CBw0H8AAAAJ&hl=en&oi=ao)." 
         #intro = "The complete list of publications is available [here](http://iie.fing.edu.uy/publicaciones/results.php?queryType=publications&author=rocamora&pg=-1)." 
 
+
+    # Music section
+    [params.music]
+        enable = true
+        icon = "fa-music"
+        title = "Music"
+        #intro = "Music projects I am involved." 
+
+        [[params.music.list]]
+        title = "Colibriyo guitar quartet"
+        url = "https:colibriyo.uy/en/"
+        tagline = "Tangos, waltzes, and milongas from the Río de la Plata."
+
+
     # Skills section
     [params.skills]
         enable = false
