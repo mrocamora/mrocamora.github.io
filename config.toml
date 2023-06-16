@@ -41,19 +41,19 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: rocamora@fing.edu.uy"
-        title = "rocamora@fing.edu.uy"
+        url = "mailto: martinrocamora@gmail.com"
+        title = "martinrocamora"
 
-        [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        #url = "tel:+598 27110974"
-        title = "+598 27110974"
+        #[[params.contact.list]]
+        #class = "phone"
+        #icon = "fa-phone"
+        ##url = "tel:+598 27110974"
+        #title = "+598 27110974"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//iie.fing.edu.uy/~rocamora/" 
+        url = "//rocamora.uy/" 
         title = "website"
 
         [[params.contact.list]]
