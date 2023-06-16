@@ -195,7 +195,7 @@ disable404 = true
         [[params.code.list]]
         title = "DCASE-models"
         url = "https://github.com/pzinemanas/DCASE-models"
-        tagline = "**Environmental sound analysis** (*python*). An open-source  library for rapid prototyping of environmental sound analysis systems, with an emphasis on deep-learning models." 
+        tagline = "**Environmental sound analysis** (*python*). An open-source  library for prototyping environmental sound analysis systems, with an emphasis on deep-learning models." 
 
 
         [[params.code.list]]
@@ -236,13 +236,17 @@ disable404 = true
         [[params.data.list]]
         title = "IEMP Uruguayan Candombe"
         url = "https://osf.io/WFX7K/"
-        tagline = "A collection of audiovisual recordings of Uruguayan Candombe drum ensemble performances, with detailed annotations (beat, downbeats, onsets, etc.)."
+        tagline = "A collection of audiovisual recordings of Uruguayan Candombe drum ensemble performances, with detailed annotations (beat/downbeats, onsets)."
 
         [[params.data.list]]
         title = "Uruguayan Candombe Beat and Downbeat"
         url = "http://www.eumus.edu.uy/candombe/datasets/ISMIR2015/"
         tagline = "A dataset of audio recordings of Uruguayan Candombe drum ensemble performances with annotated beats and downbeats."
 
+        [[params.data.list]]
+        title = "Urban Sound & Sight (Urbansas)"
+        url = "https://zenodo.org/record/6658386"
+        tagline = "A dataset for the development and evaluation of machine listening systems for audiovisual spatial urban understanding."
 
         [[params.data.list]]
         title = "MAVD-traffic dataset"
