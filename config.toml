@@ -273,7 +273,7 @@ disable404 = true
 
         [[params.music.list]]
         title = "Colibriyo guitar quartet"
-        url = "https:colibriyo.uy/en/"
+        url = "https://colibriyo.uy/en/"
         tagline = "Tangos, waltzes, and milongas from the Río de la Plata."
 
 
