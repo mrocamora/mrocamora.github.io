@@ -142,7 +142,7 @@ disable404 = true
         icon = "fa-user"
         title = "Profile"
         #summary = "**Martín Rocamora** is Assistant Professor in Signal Processing at Universidad de la República, Uruguay.  He holds B.Sc, M.Sc., and D.Sc. degrees in Electrical Engineering from the School of Engineering at the same university. His research focuses on the application of machine learning and signal processing to audio signals, with applications in machine listening, music information retrieval, and computational musicology."
-        summary = "I am currently an Assistant Professor in Signal Processing at Universidad de la República (UDELAR), Uruguay.  I hold B.Sc, M.Sc., and D.Sc. degrees in Electrical Engineering from the School of Engineering, UDELAR. I was Teaching Assistant in Music Technology at the School of Music, UDELAR. My research focuses on applying machine learning and signal processing to audio signals, with applications in machine listening, music information retrieval, and computational musicology."
+        summary = "I am currently a Senior Researcher at the Music Technology Group (MTG) of the Universitat Pompeu Fabra (UPF), Spain. I have been an Assistant Professor in Signal Processing at Universidad de la República (UDELAR), Uruguay, since 2013.  I hold B.Sc, M.Sc., and D.Sc. degrees in Electrical Engineering from the School of Engineering, UDELAR. I was Teaching Assistant in Music Technology at the School of Music, UDELAR. My research focuses on applying machine learning and signal processing to audio signals, with applications in machine listening, music information retrieval, and computational musicology."
 
 
     # Teaching section
