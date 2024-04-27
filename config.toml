@@ -203,16 +203,14 @@ disable404 = true
         #intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.code.list]]
-        title = "DCASE-models"
-        url = "https://github.com/pzinemanas/DCASE-models"
-        tagline = "**Environmental sound analysis** (*python*). An open-source  library for prototyping environmental sound analysis systems, with an emphasis on deep-learning models." 
-
-
-        [[params.code.list]]
         title = "carat"
         url = "https://github.com/mrocamora/carat"
         tagline = "**Computer-aided Rhythm Analysis Toolbox** (*python*). A toolbox for rhythmic pattern analysis from audio recordings, including some ready-to-use software applications." 
 
+        [[params.code.list]]
+        title = "DCASE-models"
+        url = "https://github.com/pzinemanas/DCASE-models"
+        tagline = "**Environmental sound analysis** (*python*). An open-source library for prototyping environmental sound analysis systems, with an emphasis on deep-learning models." 
 
         [[params.code.list]]
         title = "FChT"
