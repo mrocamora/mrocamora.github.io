@@ -177,6 +177,11 @@ disable404 = true
         #intro = "Current and recent research projects."
 
        [[params.projects.list]]
+        title = "AI & Music"
+        url = "https://www.upf.edu/web/mtg/catedra-ia-musica"
+        tagline = "**Chair on AI and Music** (NextGenerationEU, 2023-2026). *Researcher*. Assist the music sector in harnessing the potential of AI by developing practical applications and training professionals."
+
+       [[params.projects.list]]
         title = "Candombe·an·do"
         url = "https://candombeando.uy"
         tagline = "**Candombe analysis and documentation** (CSIC-UdelaR, 2021-2022). *Principal investigator*. The purpose of this project is to document and analyse various aspects of candombe drumming through computational techniques."
