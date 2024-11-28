@@ -179,7 +179,7 @@ disable404 = true
        [[params.projects.list]]
         title = "AI & Music"
         url = "https://www.upf.edu/web/mtg/catedra-ia-musica"
-        tagline = "**Chair on AI and Music** (NextGenerationEU, 2023-2026). *Researcher*. Assist the music sector in harnessing the potential of AI by developing practical applications and training professionals."
+        tagline = "**Chair on AI and Music** (NextGenerationEU, 2023-2026). *Researcher*. Harnessing the potential of AI by developing practical applications and training professionals capable of leading the transformation and renewal of the music industry in Spain."
 
        [[params.projects.list]]
         title = "Candombe·an·do"
